@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TEST_CLASSSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ScreenerTests(failed)">
+    <classes>
+      <class name="TEST_CLASS.ScreenerTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenshotOnFailure"/>
+          <include name="testQuarterlyGrowers"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TEST_CLASS.ScreenerTests -->
+    </classes>
+  </test> <!-- ScreenerTests(failed) -->
+</suite> <!-- Failed suite [TEST_CLASSSuite] -->

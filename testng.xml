@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TEST_CLASSSuite">
+  <test thread-count="5" name="ScreenerTests">
+    <classes>
+      <class name="TEST_CLASS.ScreenerTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
